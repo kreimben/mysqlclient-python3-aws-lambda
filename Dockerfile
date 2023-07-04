@@ -1,4 +1,4 @@
-FROM public.ecr.aws/sam/build-python3.9
+FROM public.ecr.aws/sam/build-python3.10:latest-x86_64
 
 ARG mysql_gpg_key_url="https://repo.mysql.com/RPM-GPG-KEY-mysql-2022"
 ARG mysql_gpg_key_name="RPM-GPG-KEY-mysql-2022"
