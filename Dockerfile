@@ -1,8 +1,8 @@
 FROM public.ecr.aws/sam/build-python3.11:latest-x86_64
 
-ARG mysql_gpg_key_url="https://repo.mysql.com/RPM-GPG-KEY-mysql-2022"
-ARG mysql_gpg_key_name="RPM-GPG-KEY-mysql-2022"
-ARG mysql_repo_rpm="mysql80-community-release-el7-3.noarch.rpm"
+ARG mysql_gpg_key_url="https://repo.mysql.com/RPM-GPG-KEY-mysql-2023"
+ARG mysql_gpg_key_name="RPM-GPG-KEY-mysql-2023"
+ARG mysql_repo_rpm="mysql80-community-release-el7-11.noarch.rpm"
 ARG mysql_devel_package_url="https://dev.mysql.com/get/${mysql_repo_rpm}"
 ARG mysql_devel_package="mysql-community-devel"
 ARG python_package_to_install="mysqlclient"
